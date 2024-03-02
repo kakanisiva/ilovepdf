@@ -7,12 +7,9 @@ file_name = "ILovePDF/configs/config.py"
 import os
 
 class bot(object):
-    # get API_ID, API_HASH values from my.telegram.org (Mandatory)
-    API_ID = os.environ.get("5540967")
-    API_HASH = os.environ.get("eedf0196b0533f361b51b5b7082358e9")
-
-    # add API_TOKEN from @botfather (Mandatory)
-    API_TOKEN = os.environ.get("7014877121:AAHCYFRPNpzk-XQ67esiEiod9QQne4Xwg60")
+    API_ID = 23933217#os.getenv('API_ID')
+    API_HASH = '9295ff05232442f3dbb48beb8698b5ed'#os.getenv('API_HASH')
+    BOT_TOKEN = '7014877121:AAHCYFRPNpzk-XQ67esiEiod9QQne4Xwg60'#os.getenv('BOT_TOKEN')
 
 class dm(object):
     # add admins Id list by space separated (Optional)
