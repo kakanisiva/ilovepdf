@@ -12,7 +12,7 @@ from telebot import async_telebot
 PDF = {}  # save images for generating pdf
 works = {"u": [], "g": []}  # broken works
 
-pyTgLovePDF = async_telebot.AsyncTeleBot(bot.API_TOKEN, parse_mode="Markdown")
+pyTgLovePDF = async_telebot.AsyncTeleBot(bot.BOT_TOKEN, parse_mode="Markdown")
 # TELEBOT (pyTelegramBotAPI) Asyncio [for uploading group doc, imgs]
 
 pyTgLovePDF.polling()
