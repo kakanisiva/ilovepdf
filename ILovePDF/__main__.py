@@ -34,9 +34,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, BotComman
 if dataBASE.MONGODB_URI:
     from database import db
 
-if not bot.API_TOKEN or not bot.API_HASH or not bot.API_ID:
-    logger.debug(f"bot.API_TOKEN, bot.API_HASH, bot.API_ID : MANDATORY")
-    sys.exit()
+# if not bot.API_TOKEN or not bot.API_HASH or not bot.API_ID:
+#     logger.debug(f"bot.API_TOKEN, bot.API_HASH, bot.API_ID : MANDATORY")
+#     sys.exit()
 
 # PYROGRAM
 class Bot(ILovePDF):
